@@ -5,7 +5,7 @@ basic.forever(function () {
         x += 1
         basic.showNumber(x)
         if (x == 5) {
-            y = x * 5
+            y = x * 6
             basic.pause(5000)
             basic.showIcon(IconNames.Snake)
             basic.showNumber(y)
