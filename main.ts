@@ -1,5 +1,10 @@
 let x = 0
 let y = 0
+input.onButtonPressed(Button.AB, function () {
+    for (let index = 0; index < 4; index++) {
+        music.play(music.stringPlayable("A F E F D G E F ", 120), music.PlaybackMode.UntilDone)
+    }
+})
 basic.forever(function () {
     if (input.buttonIsPressed(Button.A)) {
         x += 1
